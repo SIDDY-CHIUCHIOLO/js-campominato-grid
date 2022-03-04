@@ -1,0 +1,16 @@
+
+main .my-grid-container{
+    width: 500px;
+    height: 500px;
+    background-color: #7fffd4;
+}
+
+main .my-square {
+    width: calc(100% / 10);
+    height: calc(100% / 10);
+}
+
+main .my-square.my-color-active{
+    background-color: #6495ed;
+}
+
