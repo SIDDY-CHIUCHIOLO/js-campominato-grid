@@ -19,17 +19,46 @@
 
     </head>
 <body>
-    <main>
+    <header>
+        <div class="container">
+            <div class="row ">
+                <div class="col-12">
+                    <div class="d-flex justify-content-between align-items-center pt-2">
+                        <div>
+                            <img class="align-bottom" src="img/logocopia.png" alt="logo">
+                            <h1 class="fw-bold d-inline">Campo Minato</h1>
+                        </div>
+                        <div>
+                            <label for="livello-difficolta">Difficoltà:</label>
+                            <input type="text" id="livello-difficolta">
+                            <button class=" bg-secondary btn-group-sm px-4 rounded border-dark">Play</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main class="py-5">
         <div class="container">
             <div class="row">
                 <div class="col-12">
                     <div class="my-grid-container d-flex flex-wrap mt-3 mx-auto">
-                        <!-- <div class="my-square border border-3 border-dark "></div> -->
                     </div>
                 </div>
             </div>
         </div>
         <script type="text/javascript" src="script.js"> </script>
     </main>
+    
+    <footer class="py-4">
+        <div class="container">
+            <div class="row ">
+                <div class="col-12">
+                    <span>Made with &hearts; by <a href="#">Boolean</a></span>
+                </div>
+            </div>
+        </div>
+    </footer>
 </body>
 </html>

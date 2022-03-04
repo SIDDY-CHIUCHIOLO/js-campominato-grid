@@ -1,8 +1,19 @@
+body{
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+header{
+    height: 10vh;
+}
+
+main{
+    background-color: #7fffd4;
+    height: 80vh;
+}
 
 main .my-grid-container{
-    width: 500px;
-    height: 500px;
-    background-color: #7fffd4;
+    width: 450px;
+    height: 450px;
 }
 
 main .my-square {
@@ -12,5 +23,9 @@ main .my-square {
 
 main .my-square.my-color-active{
     background-color: #6495ed;
+}
+
+footer{
+    height: 10vh;
 }
 
