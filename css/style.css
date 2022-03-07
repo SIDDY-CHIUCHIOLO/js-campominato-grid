@@ -6,6 +6,10 @@ header{
     height: 10vh;
 }
 
+header button{
+    background-color: #e9e9ed;
+}
+
 main{
     background-color: #7fffd4;
     height: 80vh;
@@ -16,13 +20,10 @@ main .my-grid-container{
     height: 450px;
 }
 
-main .my-square {
-    width: calc(100% / 10);
-    height: calc(100% / 10);
-}
 
 main .my-square.my-color-active{
     background-color: #6495ed;
+    color: white;
 }
 
 footer{
